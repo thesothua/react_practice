@@ -11,7 +11,7 @@ export default function About(props) {
     const [mystyle, setmystyle] = useState(myAccoStyle);
     const [btnText , setBtnText ] =  useState('Light Mode');
  
-    console.log(btnText);
+    // console.log(btnText);
 
     const changeMode = () => {
 
@@ -23,7 +23,7 @@ export default function About(props) {
                 backgroundColor: 'white'
             })
             
-            setBtnText('Dark Mode');
+            setBtnText('Dark Mode'); 
             
             
         } else {
